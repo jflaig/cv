@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url('foto.png');
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+section {
+  padding: 4em 2em;
+}
+
+#sobre-mi {
+  background-color: #f0f8ff;  /* azul claro */
+}
+
+#experiencia {
+  background-color: #e6f2ff;  /* azul aún más suave */
+}
+
+#formacion {
+  background-color: #d9ecff;  /* azul pastel */
+}
+
+#contacto {
+  background-color: #f7f7f7;
+}
+
+h2 {
+  font-size: 2.2em;
+  color: #1a3c60;
+  margin-bottom: 1em;
+}
+
+p, li {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
