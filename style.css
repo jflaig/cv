@@ -90,3 +90,8 @@ p, li {
   font-size: 1.2em;
   line-height: 1.6;
 }
+
+.hidden-image {
+  position: absolute;
+  left: -9999px;
+}
